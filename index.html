@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Андрей & Кристина</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" sizes="16x16" href="resources/favicon.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__photo">
+            <h1 class="header__title">Андрей <span>&</span> <span>Кристина</span></h1>
+            <p class="header__description">14 / 07 / 2026</p>
+        </div>
+    </header>
+    <section class="family animate">
+        <div class="family__divider-top divider"></div>
+        <div class="family__wrapper">
+                <img class="family__image" src="resources/family.jpg">
+            <div class="family__text">
+                <div class="family__divider-top_desk divider"></div>
+                <h2>Мы станем семьей!</h2>
+                <p>Совсем скоро состоится день нашей свадьбы, и мы будем еще счастливей, если вы разделите с нами этот чудесный день!</p>
+                <div class="family__divider-bottom_desk divider"></div>
+            </div>
+        </div>
+        <h2 class="childhood__title">Два детства. Одна история любви</h2>
+        <img class="childhood__image" src="resources/childhood.jpg" alt="">
+        <div class="family__divider-bottom divider"></div>
+    </section>
+    <section class="texture__bg animate">
+        <div class="calendar">
+            <h2 class="calendar__title">Дорогие родные и друзья, мы ждём вас</h2>
+            <img class="calendar__image" src="resources/calendar.png">
+        </div>
+    </section>
+    <section class="location animate">
+        <h2 class="location__title">Локация</h2>
+        <img class="location__image" src="resources/location.jpg">
+        <div class="location__description">
+            <div class="divider"></div>
+            <p>Наша свадьба пройдет в ресторане</p>
+            <p class="location__description__bold">«Русская рыбалка»</p>
+            <p>По адресу:</p>
+            <p class="location__description__bold">Посёлок Комарово, Приморское шоссе, <span class="adress">452А</span></p>
+            <div class="divider"></div>
+        </div>
+    </section>
+    <section class="texture__bg timing__wrapper animate">
+            <h2 class="timing__title">Тайминг</h2>
+            <ul class="timings">
+                <li class="timing">
+                    <img class="timing__image" src="resources/map.png">
+                    <div class="timing__description">
+                        <p>СБОР ГОСТЕЙ</p>
+                        <p class="timing__description-paragraf">Трансфер от: Мурино, ул. Менделеева 4, подъезд 4</p>
+                        <hr class="timing__line">
+                        <p class="timing__description__font-family">15:00</p>
+                    </div>
+                </li>
+                <li class="timing">
+                    <img class="timing__image" src="resources/buffet.png">
+                    <div class="timing__description">
+                        <p>ФУРШЕТ</p>
+                        <hr class="timing__line">
+                        <p class="timing__description__font-family">16:00</p>
+                    </div>
+                </li>
+                <li class="timing">
+                    <img class="timing__image" src="resources/rings.png">
+                    <div class="timing__description">
+                        <p>ВЫЕЗДНАЯ ЦЕРЕМОНИЯ</p>
+                        <hr class="timing__line">
+                        <p class="timing__description__font-family">16:30</p>
+                    </div>
+                </li>
+                <li class="timing">
+                    <img class="timing__image" src="resources/food.png">
+                    <div class="timing__description">
+                        <p>НАЧАЛО БАНКЕТА</p>
+                        <hr class="timing__line">
+                        <p class="timing__description__font-family">17:00</p>
+                    </div>
+                </li>
+                <li class="timing">
+                    <img class="timing__image" src="resources/end.png">
+                    <div class="timing__description">
+                        <p>ЗАВЕРШЕНИЕ ВЕЧЕРА</p>
+                        <p class="timing__description-paragraf">Трансфер до: Мурино, ул. Менделеева 4, подъезд 4</p>
+                        <hr class="timing__line">
+                        <p class="timing__description__font-family">22:00</p>
+                    </div>
+                </li>
+            </ul>
+    </section>
+    <section class="cloth animate">
+        <h2 class="cloth__title">Дресс-Код</h2>
+        <div class="cloth__description__wrapper">
+            <div>
+                <div class="divider"></div>
+                <p>Главное для нас - ваше присутствие. А если при этом на вас ещё будет одежда в цветовой гамме нашей свадьбы - мы будем безмерно счастливы!</p>
+                <p>Палитра нашей свадьбы - пастельные оттенки.</p>
+                <div class="divider"></div>
+            </div>
+            <div>
+                <p><span>ДЕВУШКИ:</span></p>
+                <img src="resources/colors-for_women.png" alt="">
+                <p><span>МУЖЧИНЫ:</span></p>
+                <img src="resources/colors-for-men.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="texture__bg animate">
+        <h2 class="countdown__title">До нашей свадьбы осталось</h2>
+        <div class="countdown">
+            <div class="time-box">
+                <p id="days"><span>32</span></p>
+                <p id="days-label">ДНЯ</p>
+            </div>
+
+            <div class="time-box">
+                <p id="hours"><span>0</span></p>
+                <p id="hours-label">ЧАСОВ</p>
+            </div>
+
+            <div class="time-box">
+                <p id="minutes"><span>0</span></p>
+                <p id="minutes-label">МИНУТ</p>
+            </div>
+
+            <div class="time-box">
+                <p id="seconds"><span>0</span></p>
+                <p id="seconds-label">СЕКУНД</p>
+            </div>
+        </div>
+    </section>
+    <section class="wishes animate">
+        <h2 class="wishes__title">Пожелания</h2>
+        <div class="divider"></div>
+        <div class="wishes-slider">
+            <button class="wishes-btn prev">&#10094;</button>
+            <div class="wishes-wrapper">
+                <div class="wishes-track">
+                    <div class="wish">
+                        Лучшая поддержка для нас – ваши искренние пожелания и лучезарные улыбки, остальное можно поместить в конверт.
+                    </div>
+                    <div class="wish">
+                        Палитра нашей свадьбы - пастельные оттенки. Только белый цвет оставьте невесте, спасибо!
+                    </div>
+                    <div class="wish">
+                        Свадебная церемония пройдет на открытом воздухе у воды. Июль — тёплый месяц, но на вечер лучше взять с собой лёгкую тёплую одежду. И удобную обувь для зажигательных танцев!
+                    </div>
+                    <div class="wish">
+                        Чтобы вам было комфортно, транспорт будет ожидать вас в точке сбора и после завершения праздника отвезёт обратно. Подробнее сообщим дополнительно.
+                    </div>
+                </div>
+            </div>
+            <button class="wishes-btn next">&#10095;</button>
+        </div>
+        <div class="wishes-dots"></div>
+        <div class="divider"></div>
+    </section>
+    <section class="organizer texture__bg">
+        <h2 class="organizer__title">Связаться с организатором</h2>
+        <div class="organizer__wrapper">
+            <p class="organizer__wrapper-description">По всем вопросам, связанным с мероприятием, вы можете связаться с нашим организатором:</p>
+            <p class="organizer__wrapper-name">Мария</p>
+            <p class="organizer__wrapper-phone">+7 (921) 785-95-35</p>
+            <a class="organizer__wrapper-btn" href="tel:+79217859535">
+               Связаться 
+            </a>
+        </div>
+    </section>
+    <section class="questionnaire animate">
+        <h2 class="questionnaire__title">Анкета гостя</h2>
+        <form class="form" id="form">
+            <div class="form__wrapper">
+                <div class="form__wrapper-guest">
+                    <p>Пожалуйста, подтвердите Ваше присутствие:</p>
+                    <input type="text" name="name" placeholder="Имя и Фамилия" required>
+                    <div>
+                        <p>Планируете ли Вы присутствовать?</p>
+                        <div class="attendance">
+                            <label class="custom-radio">
+                                <input type="radio" name="attendance" value="Да" required>
+                                <span class="radiomark"></span>
+                                С радостью буду!
+                            </label>
+                            <label class="custom-radio">
+                                <input type="radio" name="attendance" value="Нет">
+                                <span class="radiomark"></span>
+                                К сожалению, нет
+                            </label>
+                        </div>
+                        <p>Если Вы будете не одни, пожалуйста, заполните поле ниже:</p>
+                        <input type="text" name="guestName" placeholder="Имя и Фамилия Вашего спутника/спутницы">
+                    </div>
+                </div>
+
+                <div class="form__wrapper-food">
+                    <p>Ваши предпочтения по алкоголю?</p>
+                    <div class="alcohol__wrapper">
+                        <div class="alcohol__wrapper-easy">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="alcohol" value="сhampagne">
+                                <span class="checkmark"></span>
+                                    Шампанское
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="alcohol" value="white_wine">
+                                <span class="checkmark"></span>
+                                    Белое вино
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="alcohol" value="red_wine">
+                                <span class="checkmark"></span>
+                                    Красное вино
+                            </label>
+                        </div>
+
+                        <div class="alcohol__wrapper-hard">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="alcohol" value="whiskey">
+                                <span class="checkmark"></span>
+                                    Виски
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="alcohol" value="vodka">
+                                <span class="checkmark"></span>
+                                    Водка
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="alcohol" value="not">
+                                <span class="checkmark"></span>
+                                    Не принципиально
+                            </label>
+                        </div>
+                    </div>
+
+                    <p>Что предпочитаете из горячих блюд?</p>
+                    <div class="food__wrapper">
+                        <p class="food__wrapper-description">Для вас</p>
+                        <div class="food__wrapper-you">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="food-i" value="meet_i">
+                                <span class="checkmark"></span>
+                                    Мясо
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="food-i" value="fish_i">
+                                <span class="checkmark"></span>
+                                    Рыба
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="food-i" value="not_i">
+                                <span class="checkmark"></span>
+                                    Не принципиально
+                                    <hr>
+                            </label>
+                        </div>
+
+                        <p class="food__wrapper-description">Для вашего спутника/спутницы</p>
+                        <div class="food__wrapper-companion">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="food-companion" value="meet_companion">
+                                <span class="checkmark"></span>
+                                    Мясо
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="food-companion" value="fish_companion">
+                                <span class="checkmark"></span>
+                                    Рыба
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="food-companion" value="not_companion">
+                                <span class="checkmark"></span>
+                                    Не принципиально
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="sendBtn">Отправить</button>
+        </form>
+    </section>
+    <footer class="texture__bg footer">
+        <div class="footer__wrapper">
+            <p>Будем рады вас видеть!</p>
+            <p class="footer__description-right">С любовью и теплом ваши</p>
+            <p>Андрей и Кристина</p>
+        </div>
+    </footer>
+</body>
+</html>
